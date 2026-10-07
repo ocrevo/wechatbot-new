@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/fanyuantaier/wechatauto-replica",
+  "commit": "fbfb02677f8f5c8d52be166dc2a662a836f1354d",
+  "upstream_version": "1.2.5.1",
+  "archive_url": "https://codeload.github.com/fanyuantaier/wechatauto-replica/zip/fbfb02677f8f5c8d52be166dc2a662a836f1354d",
+  "archive_sha256": "519d76788d2b3e2a05e5c59267a851da82bbfbea6cd9b0ba396b9fccd024a0b1",
+  "license_file": "LICENSE",
+  "local_changes": {
+    "description_file": "LOCAL_CHANGES.md",
+    "files": {
+      "wechatauto/db.py": "a188b81e179031bebec07728f6dafa81ec1983723e92779944d78df0d75d2b70",
+      "wechatauto/guia.py": "2ac7ff6e140c1e3dc1968945af9645603ca771300bb293bfeff65851c09fabf8",
+      "wechatauto/uia_driver.py": "88eedb693389a1e69c03fb3665b35b81527efd66a0628806258ab7b4620229cf",
+      "wechatauto/rhythm.py": "61fe57d80dd96e14d343ca9b3beb10bf32ce7c44dcfcb0796bdaa84dc21b0741"
+    }
+  }
+}
