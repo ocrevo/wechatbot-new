@@ -1,3 +1,7 @@
+# 补习咨询 Demo 分支
+
+本分支的 `bot.py` 是单账号、单好友的补习咨询入口，收集年级、科目及各科期末成绩。先按 [DEMO.md](DEMO.md) 配置并逐阶段验证；当前实测进展见 [VALIDATION.md](VALIDATION.md)。原完整版代码保存在 `legacy_bot.py`，下面保留上游说明与来源信息。
+
 # 说明
 
 > [!NOTE]

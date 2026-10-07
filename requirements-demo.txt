@@ -1,0 +1,3 @@
+# Independent environment; the vendored SDK includes the controlled-account patches.
+openai==1.84.0
+-e ./vendor/wechatauto-replica[guia]

@@ -26,7 +26,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-    "wechatauto-replica[guia]>=1.2.4.4",
+    "wechatauto-replica[guia]==1.2.5.1",
     "flask",
     "werkzeug",
     "openai==1.84.0",
@@ -38,9 +38,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/fanyuantaier/wechatbot-new"
-Source = "https://github.com/fanyuantaier/wechatbot-new"
-Issues = "https://github.com/fanyuantaier/wechatbot-new/issues"
+Homepage = "https://github.com/ocrevo/wechatbot-new"
+Source = "https://github.com/ocrevo/wechatbot-new"
+Issues = "https://github.com/ocrevo/wechatbot-new/issues"
 Download-offline = "https://livefile.xesimg.com/programme/python_assets/cf1b5c02b7c200b6da614e373b7ed475.zip"
 
 [project.scripts]
@@ -52,7 +52,7 @@ py-modules = ["bot", "config", "config_editor", "run", "test_bot", "test_wxbot",
 include-package-data = true
 
 [tool.setuptools.packages.find]
-include = ["emojis*", "prompts*", "templates*", "Demo_Image*", "forum_data*"]
+include = ["tutoring_demo*", "emojis*", "prompts*", "templates*", "Demo_Image*", "forum_data*"]
 
 [tool.setuptools.package-data]
 "*" = ["*", "*/*", "*/*/*", "*/*/*/*"]

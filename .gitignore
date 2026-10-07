@@ -34,3 +34,10 @@ COMMIT_MSG.txt
 
 # 临时发版正文草稿（不入库）
 release-*.md
+
+# Tutoring demo: private configuration, database keys, copies and state
+runtime/
+.env
+.env.*
+*.local.json
+.test_*/
